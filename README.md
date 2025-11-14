@@ -34,9 +34,9 @@ augusta_downtown_alliance/
 ├── about.html
 ├── business.html
 ├── contact.html
-├── downtown-life.html
-├── downtown-team.html
-├── tourism-historical.html
+├── visit-downtown.html
+├── programs-initiatives.html
+├── events.html
 ├── privacy.html
 ├── terms-conditions.html
 ├── 404.html
@@ -53,7 +53,7 @@ augusta_downtown_alliance/
 └── README.md
 ```
 
-Each HTML file represents a dedicated section of the site (e.g., **Downtown Life**, **Local Business**, **Tourism & History**, etc.), designed for modular updates and scalability.
+Each HTML file represents a dedicated section of the site (e.g., **Downtown Life**, **Local Business**, **Events**, etc.), designed for modular updates and scalability.
 
 ---
 
