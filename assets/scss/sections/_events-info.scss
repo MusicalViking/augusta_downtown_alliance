@@ -3,7 +3,6 @@
 # Tourism Info Section
 --------------------------------------------------------------*/
 .tourism-info {
-
   // Global section styles
   .container {
     position: relative;
@@ -131,7 +130,11 @@
           }
 
           &:hover {
-            background: color-mix(in srgb, var(--accent-color), transparent 15%);
+            background: color-mix(
+              in srgb,
+              var(--accent-color),
+              transparent 15%
+            );
             transform: translateY(-3px);
           }
         }
@@ -188,8 +191,8 @@
     }
   }
 
-  // Facilities Tabs
-  .facilities-tabs {
+  // Downtowns Tabs
+  .downtowns-tabs {
     margin: 2rem 0 4rem;
 
     .nav-tabs {
@@ -224,7 +227,11 @@
           }
 
           &:hover:not(.active) {
-            background: color-mix(in srgb, var(--surface-color), var(--accent-color) 10%);
+            background: color-mix(
+              in srgb,
+              var(--surface-color),
+              var(--accent-color) 10%
+            );
           }
         }
       }
@@ -233,17 +240,17 @@
     .tab-content {
       padding: 2rem 0;
 
-      .facility-highlight {
+      .alliance-highlight {
         margin-bottom: 2rem;
 
-        .facility-slider {
+        .alliance-slider {
           position: relative;
           border-radius: 10px;
           overflow: hidden;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           margin-bottom: 2rem;
 
-          .facility-slide {
+          .alliance-slide {
             position: relative;
 
             img {
@@ -259,7 +266,11 @@
               left: 0;
               width: 100%;
               padding: 15px 20px;
-              background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+              background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.7),
+                transparent
+              );
               color: white;
               font-weight: 600;
               font-size: 1.2rem;
@@ -271,7 +282,7 @@
           }
         }
 
-        .facility-description {
+        .alliance-description {
           h3 {
             color: var(--heading-color);
             margin-bottom: 1rem;
@@ -314,14 +325,18 @@
         }
       }
 
-      .facility-cards {
+      .alliance-cards {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
         height: 100%;
 
-        .facility-card {
-          background: color-mix(in srgb, var(--surface-color), var(--accent-color) 3%);
+        .alliance-card {
+          background: color-mix(
+            in srgb,
+            var(--surface-color),
+            var(--accent-color) 3%
+          );
           padding: 1.5rem;
           border-radius: 10px;
           flex: 1;
@@ -330,13 +345,17 @@
           overflow: hidden;
 
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             right: 0;
             width: 100px;
             height: 100px;
-            background: color-mix(in srgb, var(--accent-color), transparent 90%);
+            background: color-mix(
+              in srgb,
+              var(--accent-color),
+              transparent 90%
+            );
             border-radius: 0 0 0 100%;
             z-index: 0;
           }
@@ -347,7 +366,11 @@
             justify-content: center;
             width: 60px;
             height: 60px;
-            background: color-mix(in srgb, var(--accent-color), transparent 85%);
+            background: color-mix(
+              in srgb,
+              var(--accent-color),
+              transparent 85%
+            );
             border-radius: 50%;
             margin-bottom: 1rem;
             transition: all 0.3s;
@@ -377,7 +400,11 @@
           .info-badge {
             display: inline-flex;
             align-items: center;
-            background: color-mix(in srgb, var(--accent-color), transparent 85%);
+            background: color-mix(
+              in srgb,
+              var(--accent-color),
+              transparent 85%
+            );
             color: var(--accent-color);
             padding: 5px 12px;
             border-radius: 20px;
@@ -423,15 +450,15 @@
       }
 
       .tab-content {
-        .facility-slider .facility-slide img {
+        .alliance-slider .alliance-slide img {
           height: 300px;
         }
       }
     }
   }
 
-  // Campus Gallery
-  .campus-gallery-section {
+  // augusta Gallery
+  .augusta-gallery-section {
     margin: 3rem 0 4rem;
 
     .section-title {
@@ -541,8 +568,8 @@
     }
   }
 
-  // Campus Map
-  .campus-map-section {
+  // augusta Map
+  .augusta-map-section {
     margin-top: 4rem;
 
     .map-info {
@@ -583,24 +610,24 @@
             border-radius: 4px;
             margin-right: 10px;
 
-            &.academic {
-              background: #4285F4;
+            &.ada {
+              background: #4285f4;
             }
 
             &.residential {
-              background: #EA4335;
+              background: #ea4335;
             }
 
-            &.athletic {
-              background: #34A853;
+            &.activities {
+              background: #34a853;
             }
 
             &.dining {
-              background: #FBBC05;
+              background: #fbbc05;
             }
 
             &.parking {
-              background: #7986CB;
+              background: #7986cb;
             }
           }
 

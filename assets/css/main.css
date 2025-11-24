@@ -956,7 +956,7 @@ section,
 
 .hero .hero-container .hero-content .cta-buttons {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
 }
 
 @media (max-width: 576px) {
@@ -967,10 +967,10 @@ section,
 }
 
 .hero .hero-container .hero-content .cta-buttons a {
-  padding: 14px 30px;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
   letter-spacing: 0.5px;
   display: inline-block;
   transition: all 0.3s ease;
@@ -987,7 +987,7 @@ section,
 .hero .hero-container .hero-content .cta-buttons .btn-primary {
   background-color: var(--accent-color);
   color: var(--contrast-color);
-  border: 2px solid var(--accent-color);
+  border: 0.25rem solid var(--accent-color);
 }
 
 .hero .hero-container .hero-content .cta-buttons .btn-primary:hover {
@@ -2235,11 +2235,11 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 25%);
 }
 
-.get-involved .admissions-steps .steps-wrapper {
+.get-involved .applications-steps .steps-wrapper {
   position: relative;
 }
 
-.get-involved .admissions-steps .steps-wrapper:before {
+.get-involved .applications-steps .steps-wrapper:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2250,17 +2250,17 @@ section,
   z-index: 0;
 }
 
-.get-involved .admissions-steps .step-item {
+.get-involved .applications-steps .step-item {
   display: flex;
   margin-bottom: 2rem;
   position: relative;
 }
 
-.get-involved .admissions-steps .step-item:last-child {
+.get-involved .applications-steps .step-item:last-child {
   margin-bottom: 0;
 }
 
-.get-involved .admissions-steps .step-item .step-number {
+.get-involved .applications-steps .step-item .step-number {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -2276,7 +2276,7 @@ section,
   z-index: 1;
 }
 
-.get-involved .admissions-steps .step-item .step-content {
+.get-involved .applications-steps .step-item .step-content {
   padding-top: 0.25rem;
 }
 
@@ -2309,27 +2309,27 @@ section,
   font-weight: 600;
 }
 
-.get-involved .admissions-requirements {
+.get-involved .applications-requirements {
   background-color: var(--surface-color);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.get-involved .admissions-requirements .requirements-list {
+.get-involved .applications-requirements .requirements-list {
   margin-top: 1.5rem;
 }
 
-.get-involved .admissions-requirements .requirement-item {
+.get-involved .applications-requirements .requirement-item {
   display: flex;
   margin-bottom: 1.75rem;
 }
 
-.get-involved .admissions-requirements .requirement-item:last-child {
+.get-involved .applications-requirements .requirement-item:last-child {
   margin-bottom: 0;
 }
 
-.get-involved .admissions-requirements .requirement-item .icon-box {
+.get-involved .applications-requirements .requirement-item .icon-box {
   width: 48px;
   height: 48px;
   border-radius: 8px;
@@ -2342,7 +2342,7 @@ section,
   flex-shrink: 0;
 }
 
-.get-involved .admissions-requirements .requirement-item .icon-box i {
+.get-involved .applications-requirements .requirement-item .icon-box i {
   font-size: 1.25rem;
 }
 
@@ -2859,7 +2859,7 @@ section,
   margin-top: 8px;
 }
 
-.about-downtown .about-downtown-tabs .tab-content .athletic-programs-slider {
+.about-downtown .about-downtown-tabs .tab-content .activities-programs-slider {
   margin-top: 40px;
   padding-bottom: 50px;
 }
@@ -2867,7 +2867,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .swiper-wrapper {
   height: auto !important;
 }
@@ -2875,7 +2875,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card {
   border-radius: 10px;
   overflow: hidden;
@@ -2886,7 +2886,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card
   img {
   width: 100%;
@@ -2898,7 +2898,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card
   .sport-info {
   position: absolute;
@@ -2913,7 +2913,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card
   .sport-info
   h5 {
@@ -2925,7 +2925,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card
   .sport-info
   .badge {
@@ -2941,7 +2941,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .sport-card:hover
   img {
   transform: scale(1.1);
@@ -2950,7 +2950,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .swiper-pagination {
   bottom: 0;
 }
@@ -2958,7 +2958,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 10px;
@@ -2970,7 +2970,7 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .athletic-programs-slider
+  .activities-programs-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
@@ -2978,7 +2978,7 @@ section,
   height: 12px;
 }
 
-.about-downtown .about-downtown-tabs .tab-content .facilities-gallery img {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -2986,31 +2986,27 @@ section,
   transition: transform 0.3s ease;
 }
 
-.about-downtown
-  .about-downtown-tabs
-  .tab-content
-  .facilities-gallery
-  img:hover {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-gallery img:hover {
   transform: scale(1.03);
 }
 
-.about-downtown .about-downtown-tabs .tab-content .facilities-info {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-info {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.about-downtown .about-downtown-tabs .tab-content .facilities-info h3 {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-info h3 {
   margin-bottom: 20px;
   color: var(--heading-color);
 }
 
-.about-downtown .about-downtown-tabs .tab-content .facilities-info p {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-info p {
   margin-bottom: 20px;
   line-height: 1.7;
 }
 
-.about-downtown .about-downtown-tabs .tab-content .facilities-list {
+.about-downtown .about-downtown-tabs .tab-content .downtowns-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -3020,8 +3016,8 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item {
+  .downtowns-list
+  .alliance-item {
   display: flex;
   align-items: flex-start;
   background-color: var(--surface-color);
@@ -3034,16 +3030,16 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item:hover {
+  .downtowns-list
+  .alliance-item:hover {
   transform: translateY(-5px);
 }
 
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item:hover
+  .downtowns-list
+  .alliance-item:hover
   i {
   color: var(--accent-color);
 }
@@ -3051,8 +3047,8 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item
+  .downtowns-list
+  .alliance-item
   i {
   font-size: 24px;
   color: var(--heading-color);
@@ -3063,8 +3059,8 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item
+  .downtowns-list
+  .alliance-item
   h5 {
   margin-bottom: 5px;
   font-size: 1rem;
@@ -3073,8 +3069,8 @@ section,
 .about-downtown
   .about-downtown-tabs
   .tab-content
-  .facilities-list
-  .facility-item
+  .downtowns-list
+  .alliance-item
   p {
   margin-bottom: 0;
   font-size: 0.85rem;
@@ -3377,7 +3373,7 @@ section,
     margin-bottom: 30px;
   }
 
-  .about-downtown .facilities-info {
+  .about-downtown .downtowns-info {
     margin-top: 30px;
   }
 }
@@ -3606,22 +3602,22 @@ section,
   }
 }
 
-.events-info .facilities-tabs {
+.events-info .downtowns-tabs {
   margin: 2rem 0 4rem;
 }
 
-.events-info .facilities-tabs .nav-tabs {
+.events-info .downtowns-tabs .nav-tabs {
   border: none;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.events-info .facilities-tabs .nav-tabs .nav-item {
+.events-info .downtowns-tabs .nav-tabs .nav-item {
   margin: 0 0.5rem;
 }
 
-.events-info .facilities-tabs .nav-tabs .nav-item .nav-link {
+.events-info .downtowns-tabs .nav-tabs .nav-item .nav-link {
   border: none;
   border-radius: 50px;
   padding: 12px 24px;
@@ -3634,33 +3630,29 @@ section,
   align-items: center;
 }
 
-.events-info .facilities-tabs .nav-tabs .nav-item .nav-link i {
+.events-info .downtowns-tabs .nav-tabs .nav-item .nav-link i {
   margin-right: 8px;
 }
 
-.events-info .facilities-tabs .nav-tabs .nav-item .nav-link.active {
+.events-info .downtowns-tabs .nav-tabs .nav-item .nav-link.active {
   color: var(--contrast-color);
   background: var(--accent-color);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.events-info .facilities-tabs .nav-tabs .nav-item .nav-link:hover:not(.active) {
+.events-info .downtowns-tabs .nav-tabs .nav-item .nav-link:hover:not(.active) {
   background: color-mix(in srgb, var(--surface-color), var(--accent-color) 10%);
 }
 
-.events-info .facilities-tabs .tab-content {
+.events-info .downtowns-tabs .tab-content {
   padding: 2rem 0;
 }
 
-.events-info .facilities-tabs .tab-content .facility-highlight {
+.events-info .downtowns-tabs .tab-content .alliance-highlight {
   margin-bottom: 2rem;
 }
 
-.events-info
-  .facilities-tabs
-  .tab-content
-  .facility-highlight
-  .facility-slider {
+.events-info .downtowns-tabs .tab-content .alliance-highlight .alliance-slider {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -3669,20 +3661,20 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-slider
-  .facility-slide {
+  .alliance-highlight
+  .alliance-slider
+  .alliance-slide {
   position: relative;
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-slider
-  .facility-slide
+  .alliance-highlight
+  .alliance-slider
+  .alliance-slide
   img {
   width: 100%;
   height: 400px;
@@ -3691,11 +3683,11 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-slider
-  .facility-slide
+  .alliance-highlight
+  .alliance-slider
+  .alliance-slide
   .slide-caption {
   position: absolute;
   bottom: 0;
@@ -3709,20 +3701,20 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-slider
-  .facility-slide:hover
+  .alliance-highlight
+  .alliance-slider
+  .alliance-slide:hover
   img {
   transform: scale(1.05);
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   h3 {
   color: var(--heading-color);
   margin-bottom: 1rem;
@@ -3732,10 +3724,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   h3:after {
   content: "";
   position: absolute;
@@ -3748,29 +3740,29 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   p {
   margin-bottom: 1.5rem;
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   .feature-list {
   padding: 0;
   list-style: none;
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   .feature-list
   li {
   padding: 8px 0;
@@ -3779,10 +3771,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-highlight
-  .facility-description
+  .alliance-highlight
+  .alliance-description
   .feature-list
   li
   i {
@@ -3791,14 +3783,14 @@ section,
   margin-right: 10px;
 }
 
-.events-info .facilities-tabs .tab-content .facility-cards {
+.events-info .downtowns-tabs .tab-content .alliance-cards {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   height: 100%;
 }
 
-.events-info .facilities-tabs .tab-content .facility-cards .facility-card {
+.events-info .downtowns-tabs .tab-content .alliance-cards .alliance-card {
   background: color-mix(in srgb, var(--surface-color), var(--accent-color) 3%);
   padding: 1.5rem;
   border-radius: 10px;
@@ -3809,10 +3801,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card:before {
+  .alliance-cards
+  .alliance-card:before {
   content: "";
   position: absolute;
   top: 0;
@@ -3825,10 +3817,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card
+  .alliance-cards
+  .alliance-card
   .icon-container {
   display: flex;
   align-items: center;
@@ -3842,10 +3834,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card
+  .alliance-cards
+  .alliance-card
   .icon-container
   i {
   font-size: 1.6rem;
@@ -3853,14 +3845,14 @@ section,
   transition: all 0.3s;
 }
 
-.events-info .facilities-tabs .tab-content .facility-cards .facility-card h4 {
+.events-info .downtowns-tabs .tab-content .alliance-cards .alliance-card h4 {
   font-weight: 700;
   margin-bottom: 0.8rem;
   position: relative;
   z-index: 1;
 }
 
-.events-info .facilities-tabs .tab-content .facility-cards .facility-card p {
+.events-info .downtowns-tabs .tab-content .alliance-cards .alliance-card p {
   font-size: 0.9rem;
   color: color-mix(in srgb, var(--default-color), transparent 15%);
   margin-bottom: 1rem;
@@ -3869,10 +3861,10 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card
+  .alliance-cards
+  .alliance-card
   .info-badge {
   display: inline-flex;
   align-items: center;
@@ -3885,86 +3877,82 @@ section,
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card
+  .alliance-cards
+  .alliance-card
   .info-badge
   i {
   margin-right: 5px;
 }
 
-.events-info
-  .facilities-tabs
-  .tab-content
-  .facility-cards
-  .facility-card:hover {
+.events-info .downtowns-tabs .tab-content .alliance-cards .alliance-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card:hover
+  .alliance-cards
+  .alliance-card:hover
   .icon-container {
   background: var(--accent-color);
 }
 
 .events-info
-  .facilities-tabs
+  .downtowns-tabs
   .tab-content
-  .facility-cards
-  .facility-card:hover
+  .alliance-cards
+  .alliance-card:hover
   .icon-container
   i {
   color: var(--contrast-color);
 }
 
 @media (max-width: 768px) {
-  .events-info .facilities-tabs .nav-tabs {
+  .events-info .downtowns-tabs .nav-tabs {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 5px;
   }
 
-  .events-info .facilities-tabs .nav-tabs .nav-item {
+  .events-info .downtowns-tabs .nav-tabs .nav-item {
     margin: 0 0.3rem;
   }
 
-  .events-info .facilities-tabs .nav-tabs .nav-item .nav-link {
+  .events-info .downtowns-tabs .nav-tabs .nav-item .nav-link {
     padding: 8px 16px;
     font-size: 0.9rem;
     white-space: nowrap;
   }
 
   .events-info
-    .facilities-tabs
+    .downtowns-tabs
     .tab-content
-    .facility-slider
-    .facility-slide
+    .alliance-slider
+    .alliance-slide
     img {
     height: 300px;
   }
 }
 
-.events-info .campus-gallery-section {
+.events-info .augusta-gallery-section {
   margin: 3rem 0 4rem;
 }
 
-.events-info .campus-gallery-section .section-title {
+.events-info .augusta-gallery-section .section-title {
   text-align: center;
   margin-bottom: 2.5rem;
 }
 
-.events-info .campus-gallery-section .section-title h2 {
+.events-info .augusta-gallery-section .section-title h2 {
   position: relative;
   display: inline-block;
   padding-bottom: 15px;
 }
 
-.events-info .campus-gallery-section .section-title h2:after {
+.events-info .augusta-gallery-section .section-title h2:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -3976,20 +3964,20 @@ section,
   border-radius: 1.5px;
 }
 
-.events-info .campus-gallery-section .section-title p {
+.events-info .augusta-gallery-section .section-title p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   max-width: 650px;
   margin: 0 auto;
 }
 
-.events-info .campus-gallery-section .gallery-grid {
+.events-info .augusta-gallery-section .gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 200px);
   gap: 15px;
 }
 
-.events-info .campus-gallery-section .gallery-grid .gallery-item {
+.events-info .augusta-gallery-section .gallery-grid .gallery-item {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -3997,12 +3985,12 @@ section,
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.events-info .campus-gallery-section .gallery-grid .gallery-item.large {
+.events-info .augusta-gallery-section .gallery-grid .gallery-item.large {
   grid-column: span 2;
   grid-row: span 2;
 }
 
-.events-info .campus-gallery-section .gallery-grid .gallery-item img {
+.events-info .augusta-gallery-section .gallery-grid .gallery-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -4010,7 +3998,7 @@ section,
 }
 
 .events-info
-  .campus-gallery-section
+  .augusta-gallery-section
   .gallery-grid
   .gallery-item
   .gallery-overlay {
@@ -4025,7 +4013,7 @@ section,
 }
 
 .events-info
-  .campus-gallery-section
+  .augusta-gallery-section
   .gallery-grid
   .gallery-item
   .gallery-overlay
@@ -4036,17 +4024,17 @@ section,
   font-weight: 600;
 }
 
-.events-info .campus-gallery-section .gallery-grid .gallery-item:hover {
+.events-info .augusta-gallery-section .gallery-grid .gallery-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-.events-info .campus-gallery-section .gallery-grid .gallery-item:hover img {
+.events-info .augusta-gallery-section .gallery-grid .gallery-item:hover img {
   transform: scale(1.1);
 }
 
 .events-info
-  .campus-gallery-section
+  .augusta-gallery-section
   .gallery-grid
   .gallery-item:hover
   .gallery-overlay {
@@ -4054,39 +4042,39 @@ section,
 }
 
 @media (max-width: 992px) {
-  .events-info .campus-gallery-section .gallery-grid {
+  .events-info .augusta-gallery-section .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 200px);
   }
 }
 
 @media (max-width: 576px) {
-  .events-info .campus-gallery-section .gallery-grid {
+  .events-info .augusta-gallery-section .gallery-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 200px);
   }
 
-  .events-info .campus-gallery-section .gallery-grid .gallery-item.large {
+  .events-info .augusta-gallery-section .gallery-grid .gallery-item.large {
     grid-column: 1;
     grid-row: span 1;
   }
 }
 
-.events-info .campus-map-section {
+.events-info .augusta-map-section {
   margin-top: 4rem;
 }
 
-.events-info .campus-map-section .map-info {
+.events-info .augusta-map-section .map-info {
   padding-right: 2rem;
 }
 
-.events-info .campus-map-section .map-info h2 {
+.events-info .augusta-map-section .map-info h2 {
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 15px;
 }
 
-.events-info .campus-map-section .map-info h2:after {
+.events-info .augusta-map-section .map-info h2:after {
   content: "";
   position: absolute;
   left: 0;
@@ -4097,21 +4085,21 @@ section,
   border-radius: 1.5px;
 }
 
-.events-info .campus-map-section .map-info p {
+.events-info .augusta-map-section .map-info p {
   margin-bottom: 2rem;
 }
 
-.events-info .campus-map-section .map-info .map-legend {
+.events-info .augusta-map-section .map-info .map-legend {
   margin-bottom: 2rem;
 }
 
-.events-info .campus-map-section .map-info .map-legend .legend-item {
+.events-info .augusta-map-section .map-info .map-legend .legend-item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.events-info .campus-map-section .map-info .map-legend .legend-item .marker {
+.events-info .augusta-map-section .map-info .map-legend .legend-item .marker {
   width: 16px;
   height: 16px;
   border-radius: 4px;
@@ -4119,16 +4107,16 @@ section,
 }
 
 .events-info
-  .campus-map-section
+  .augusta-map-section
   .map-info
   .map-legend
   .legend-item
-  .marker.academic {
+  .marker.ada {
   background: #4285f4;
 }
 
 .events-info
-  .campus-map-section
+  .augusta-map-section
   .map-info
   .map-legend
   .legend-item
@@ -4137,16 +4125,16 @@ section,
 }
 
 .events-info
-  .campus-map-section
+  .augusta-map-section
   .map-info
   .map-legend
   .legend-item
-  .marker.athletic {
+  .marker.activities {
   background: #34a853;
 }
 
 .events-info
-  .campus-map-section
+  .augusta-map-section
   .map-info
   .map-legend
   .legend-item
@@ -4155,7 +4143,7 @@ section,
 }
 
 .events-info
-  .campus-map-section
+  .augusta-map-section
   .map-info
   .map-legend
   .legend-item
@@ -4163,11 +4151,11 @@ section,
   background: #7986cb;
 }
 
-.events-info .campus-map-section .map-info .map-legend .legend-item span {
+.events-info .augusta-map-section .map-info .map-legend .legend-item span {
   font-size: 0.9rem;
 }
 
-.events-info .campus-map-section .map-info .btn-map {
+.events-info .augusta-map-section .map-info .btn-map {
   display: inline-flex;
   align-items: center;
   background: var(--accent-color);
@@ -4178,30 +4166,30 @@ section,
   transition: all 0.3s;
 }
 
-.events-info .campus-map-section .map-info .btn-map i {
+.events-info .augusta-map-section .map-info .btn-map i {
   margin-right: 8px;
 }
 
-.events-info .campus-map-section .map-info .btn-map:hover {
+.events-info .augusta-map-section .map-info .btn-map:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.events-info .campus-map-section .map-container {
+.events-info .augusta-map-section .map-container {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.events-info .campus-map-section .map-container iframe {
+.events-info .augusta-map-section .map-container iframe {
   width: 100%;
   height: 100%;
   border: none;
 }
 
 @media (max-width: 992px) {
-  .events-info .campus-map-section .map-info {
+  .events-info .augusta-map-section .map-info {
     padding-right: 0;
     margin-bottom: 2rem;
   }
